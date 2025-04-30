@@ -1,10 +1,21 @@
 En t'appuyant sur le fichier ci joint: peux tu me créer une appli web avec les caractéristiques suivantes : 
 
 - 4 onglets : "La Ruche Kezako ?" , "Apercu pour votre groupe", "Data" et "Lexique"
-- Je veux que les couleurs dominantes soient : #c4d6c3; #05386b; #edf5e1
+- Je veux que les couleurs dominantes pour la cadre de l'application web soient : #c4d6c3; #05386b; #edf5e1
 - Les polices de Caractères sont : Bimbo Bold pour les 6 Alévoles et Quicksand pour tou le reste du site 
 - Dans l'onglet "Apercu pour votre groupe" Je veux voir les 6 alvéoles sous formes hexagonales
-- Dans l'onglet "Apercu pour votre groupe" Je veux voir les sous alvéoles sous formes hexagonales plus petite que les précédentes rattachés aux 6 alvéoles comme décrit dans le fichier
-- Dans l'onglet "Apercu pour votre groupe" je veux voir les influences tel que décrites dans le fichier matérialiés par des flèches 
+- Dans l'onglet "Apercu pour votre groupe" Je veux voir la forme hexagonale des alvéoles qui englobe le texte.
+- Dans l'onglet "Apercu pour votre groupe" Je veux voir la forme hexagonale des sous alvéoles qui englobe le texte.
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "L'AMÉLIORATION ET LE DÉVELOPPEMENT CONTINU" est #00e689
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "LE “TOUT”  CONTINU" est #04d0d0
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "L'AUTONOMIE DU GROUPE" est #f6b26b
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "L'ORIENTATION CLIENT" est #df40df
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "L'EFFICACITÉ DU GROUPE" est #ff6b65
+- Dans l'onglet "Apercu pour votre groupe" la couleur de l'Alvéole "L’APPORT DU MANAGEMENT" est #6587a4
+- Dans l'onglet "Apercu pour votre groupe" Je veux voir les sous alvéoles sous formes hexagonales plus petite que les précédentes rattachés aux 6 alvéoles comme décrit dans le fichier et avec lees mêmes couleurs que l'alvéole à laquelle elles sont rattachés
+- Dans l'onglet "Apercu pour votre groupe" Je veux voir les sous alvéoles reliés par un trait pointillé
+- Dans l'onglet "Apercu pour votre groupe" je veux voir les influences tel que décrites dans le fichier matérialiés par des flèches qui ne doivent par rentrer dans les hexagones
+- Dans l'onglet "Apercu pour votre groupe" je veux voir les flèches d'influences de différentes épaisseurs selon le niveau d'influence et il faudra l'indiquer dans la légende.
+- Dans l'onglet "Apercu pour votre groupe" je veux voir les moyennes de l'échelle de Likert sur chaque alvéoles et sous alvéoles
 - Dans l'onglet "La Ruche Kezako ?", je veux voir un résumé du fichier avec un ton informel
 - Dans l'onglet "Data" et "Lexique" je veux que cela soit vide dans un premier temps
