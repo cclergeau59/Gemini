@@ -19,3 +19,71 @@ En t'appuyant sur le fichier ci joint: peux tu me créer une appli web avec les 
 - Dans l'onglet "Apercu pour votre groupe" je veux voir les moyennes de l'échelle de Likert sur chaque alvéoles et sous alvéoles
 - Dans l'onglet "La Ruche Kezako ?", je veux voir un résumé du fichier avec un ton informel
 - Dans l'onglet "Data" et "Lexique" je veux que cela soit vide dans un premier temps
+
+
+********
+
+Structure Générale :
+
+Remplacer le titre textuel par le logo fourni à l'URL : https://static.wixstatic.com/media/e09401_e0f92a6d4f9d427d8dd172abb6438cf6~mv2.png (utiliser une hauteur de h-32 en Tailwind).
+Utiliser les couleurs dominantes #c4d6c3, #05386b, #edf5e1 pour le cadre général.
+Utiliser la police "Quicksand" pour tout le texte.
+Navigation : Pas d'onglets. Utiliser un bouton "Menu" unique (fond #05386b, texte blanc) positionné en haut à droite. Ce bouton doit ouvrir un menu vertical sur la gauche (fond #96adc1, texte #05386b).
+Sections : Créer les sections suivantes, accessibles via le menu : "Accueil", "La Ruche Kezako ?", "Aperçu pour votre groupe", "Data", "Lexique", "Gestion Admin".
+Système de Connexion (Simulation) :
+
+Implémenter une simulation de connexion. Au départ, l'utilisateur est déconnecté.
+État Déconnecté :
+Le menu affiche : "Accueil", "La Ruche Kezako ?", "Connexion" (avec une icône de clé).
+La page "Accueil" est affichée par défaut.
+Cliquer sur "Connexion" dans le menu affiche une section de connexion dédiée.
+Section Connexion :
+Afficher un lien "Créer un compte".
+Afficher des boutons (centrés, l'un sous l'autre) "Se connecter avec Google" et "Se connecter avec Microsoft".
+Afficher un séparateur "OU".
+Afficher un champ "Email".
+Afficher un champ "Mot de passe" avec une icône "œil" pour basculer la visibilité.
+Afficher un bouton "Valider".
+Logique de Connexion :
+Si email="admin@ruche.com" et mdp="admin", connecter en tant qu'admin.
+Si mdp="test" (peu importe l'email), connecter en tant qu'utilisateur normal.
+Si clic sur Google/Microsoft, simuler une connexion réussie (utilisateur normal).
+Si échec, afficher un message d'erreur.
+État Connecté :
+Cacher la section "Connexion".
+Le menu affiche : "Accueil", "La Ruche Kezako ?", "Aperçu...", "Data", "Lexique", ("Gestion Admin" si admin), et "Déconnexion" (rouge).
+Afficher la page "Accueil" par défaut.
+Déconnexion : Cliquer sur "Déconnexion" ramène à l'état déconnecté.
+Création de Compte (Simulation) : Le lien "Créer un compte" affiche un formulaire simple (email, mdp, confirmation) qui, après validation, affiche un message de succès et retourne à l'écran de connexion.
+Section "Accueil" :
+
+Afficher un titre "Accueil".
+Intégrer une animation three.js dans un canvas (height: 400px, fond blanc, bordure légère) :
+Afficher 6 hexagones fixes (couleur #fdfdfd, contour #cccccc) formant un petit groupe au centre.
+Ajouter des lignes simples (couleur #cccccc) reliant le centre aux hexagones.
+Ajouter ~15 "abeilles" (sprites jaunes/noirs simples) se déplaçant aléatoirement autour des hexagones.
+Ajouter un texte de bienvenue sous l'animation.
+Section "La Ruche Kezako ?" :
+
+Afficher un résumé informel du fichier PDF.
+Intégrer la vidéo YouTube avec l'URL : https://www.youtube.com/embed/-h1fsrpb_14?si=9r9c-Pq8D2PP-uJW dans un conteneur responsive.
+Section "Aperçu pour votre groupe" :
+
+Appliquer un fond blanc avec un motif répétitif discret d'hexagones gris clair (style CSS background-image).
+Afficher la légende des influences (utiliser les styles de trait : pointillé=faible, tiret=modéré, plein=fort/très fort) et du lien alvéole/sous-alvéole.
+Afficher la visualisation SVG des 6 alvéoles principales (couleurs spécifiques du PDF, contour #05386b). Centrer la visualisation verticalement à y=300 dans un viewBox approprié (0 -230 800 1200).
+Texte dans les alvéoles : centré, utiliser Quicksand Bold pour les titres principaux.
+Sous-alvéoles : initialement cachées, affichées/masquées au clic sur l'alvéole principale. Forme hexagonale, taille 45, remplissage avec version éclaircie (30%) de la couleur parente.
+Lignes pointillées (stroke-dasharray: 3,3, stroke-width: 1.5) reliant les bords, avec la couleur de l'alvéole parente.
+Flèches d'influence : trait stroke-width: 2, pointe de taille fixe (8x6), style de trait selon force. Ajouter une bulle d'info (tooltip) au survol. Inclure les flèches vers "Efficacité".
+Scores : Afficher les moyennes (sans "/ 7") dans des cercles blancs (rayon principal=18, secondaire=15) positionnés juste sous la pointe inférieure de chaque hexagone.
+Exception "Feedback Client" : Pour cette sous-alvéole (de "Efficacité"), augmenter la distance radiale de 130 unités, taille de l'hexagone à 50, contour pointillé (stroke-dasharray: 4,4) avec la couleur de l'alvéole parente (#ff6b65).
+Ajuster l'espacement radial/angulaire pour "Amélioration" et "Efficacité" pour éviter les chevauchements.
+Section "Gestion Admin" (Simulation) :
+
+Accessible uniquement si connecté en admin.
+Afficher un titre.
+Formulaire pour ajouter un utilisateur (email/mdp).
+Tableau listant les utilisateurs fictifs (mockUsers) avec un bouton "Supprimer".
+Les actions "Ajouter" et "Supprimer" modifient seulement le tableau mockUsers et rafraîchissent l'affichage.
+Sections "Data" et "Lexique" : Laisser vides pour l'instant."
