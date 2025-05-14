@@ -1,0 +1,26 @@
+Faire des recherches sur des sites Web : 
+
+(1) Effectuer des recherches d'offres d'emploi pour les postes suivants, en ciblant la France ET les régions francophones des pays limitrophes (Belgique, Suisse, Luxembourg) :
+(a) Coach agile
+(b) Formateur en agilité
+(c) Consultant en Changement (en s'assurant que le contexte est lié à l'agilité ou à la transformation organisationnelle)
+(d) Scrum Master
+
+(2) Pour chaque recherche, appliquer les filtres suivants :
+(a) Type de contrat : mission freelance OU poste en ESN (Entreprise de Services du Numérique).
+(b) Date de publication : au cours de la dernière semaine (c'est-à-dire depuis le 7 mai 2025).
+(c) Nom de l'interlocuteur avec son mail si possible ou bien son nuémro de téléphone ou encore son lien Linkedin
+
+(3) Pour chaque offre d'emploi pertinente identifiée, extraire les informations suivantes :
+(a) Nom de l'entreprise ou du client (et préciser s'il s'agit d'une ESN).
+(b) Localisation précise du poste (pays, ville/région).
+(c) Intitulé exact du poste.
+(d) Résumé des principales responsabilités et des compétences clés recherchées.
+(e) Type de contrat (freelance, CDI au sein d'une ESN, etc.).
+(f) Date de publication de l'offre (pour confirmer qu'elle date de moins d'une semaine).
+(g) Informations sur la manière de postuler (lien vers l'offre ou contact).
+
+(4) Peux tu faire aussi faire une recherche sur les startups qui auraient besoin d'une personne pour mettre en place une organisation collaborative.
+(5) Lors des recherches pour la Belgique, se concentrer sur les régions francophones (ex: Wallonie, Région de Bruxelles-Capitale). Pour la Suisse, cibler les cantons francophones (ex: Genève, Vaud, Neuchâtel, Jura, Fribourg, Valais).
+
+(6) Compiler les résultats de manière claire et structurée, en veillant à éliminer les doublons.
